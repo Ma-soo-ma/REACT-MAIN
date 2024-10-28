@@ -1,0 +1,19 @@
+h1 {
+  font-size: 100px;
+  padding: 20px;
+}
+.col {
+  padding: 10px;
+}
+.btn-success {
+  position: relative;
+  right: 140px;
+  font-size: 10px;
+  width: 23%;
+}
+input {
+  width: 100%;
+}
+.items-container {
+  text-align: left;
+}

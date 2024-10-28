@@ -1,0 +1,18 @@
+function AddItem2() {
+  let todoName = "Go to college";
+  let todoDate = "4/10/2024";
+  return (
+    <div class="container ">
+      <div class="row row-cols-3">
+        <div class="col">{todoName}</div>
+        <div class="col">{todoDate}</div>
+        <div class="col">
+          <button type="button" class="btn btn-danger">
+            Danger
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+export default AddItem2;
